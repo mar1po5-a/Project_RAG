@@ -2,7 +2,7 @@
 (Project)청년 정책 지원 도우미 : Google Gemini LLM을 이용한 RAG 시스템
 RAG 파이프라인을 구성하고 모듈화를 진행했습니다.
 
-python 포트 번호는 8000번,
+python 포트 번호는 8000번, \n
 CORS로 연결할 react 포트 번호는 3000번으로 설정되어있습니다.
 
 (venv) 터미널에 uvicorn main:app --host 0.0.0.0 --port 8000 --log-level info
